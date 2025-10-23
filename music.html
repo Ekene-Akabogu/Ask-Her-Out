@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Love Playlist</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Acme&family=Marko+One&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body class="music-page">
+
+  <div class="music-card">
+    <h1>These songs reminds me of you (◕‿◕✿)</h1>
+    <p>
+      Every lyric reminds me of you.<br />
+      Every beat feels like your heartbeat next to mine.
+    </p>
+
+    <!-- YouTube video embed -->
+    <div class="video-container">
+      <iframe 
+        src="https://www.youtube.com/embed/HCjNJDNzw8Y"
+        title="Our Song"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <a href="https://open.spotify.com/playlist/yourplaylistlink" 
+       target="_blank" 
+       class="spotify-btn">
+       Listen to This Album 🎧
+    </a>
+
+    <button class="return-btn" onclick="goBackToLovePage()">Return 💌</button>
+  </div>
+
+</body>
+</html>

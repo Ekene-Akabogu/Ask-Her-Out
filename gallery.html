@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Memory Gallery</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Acme&family=Marko+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="gallerystyles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body class="gallery-page">
+  <header>
+    <h1>Our Little World of Memories ❤️</h1>
+    <p>Every smile, every glance, every photo — a chapter of us.</p>
+  </header>
+
+  <main class="polaroid-wall">
+    <!-- Top string (Photos) -->
+    <div class="string top-string"></div>
+    <div class="photo-row">
+      <div class="polaroid" style="--rotation: -4deg;">
+        <img src="Images/pic2.JPG" alt="Memory 1" />
+        <p>Omalicha m 💕</p>
+      </div>
+
+      <div class="polaroid" style="--rotation: 5deg;">
+        <img src="Images/pic3.JPG" alt="Memory 2" />
+        <p>Final Year Picture Day 🥰</p>
+      </div>
+
+      <div class="polaroid" style="--rotation: -3deg;">
+        <img src="Images/pic1.JPG" alt="Memory 3" />
+        <p>Our Bathroom Convos☀️</p>
+      </div>
+
+      <div class="polaroid" style="--rotation: 4deg;">
+        <img src="Images/pic4.JPG" alt="Memory 4" />
+        <p>Udala Mmicha m 😍 </p>
+      </div>
+
+      <div class="polaroid" style="--rotation: -5deg;">
+        <img src="Images/pic5.JPG" alt="Memory 5" />
+        <p>Mhmmmmm ❤️</p>
+      </div>
+    </div>
+
+    <!-- Bottom string (Videos) -->
+    <div class="string bottom-string"></div>
+    <div class="video-row">
+      <div class="polaroid" style="--rotation: 3deg;">
+        <video controls>
+          <source src="Videos/vid1.MOV" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <p>We are so cute 😍</p>
+      </div>
+
+      <div class="polaroid" style="--rotation: -6deg;">
+        <video controls>
+          <source src="Videos/vid3.MOV" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <p>Kisses for you 💋</p>
+      </div>
+
+      <div class="polaroid" style="--rotation: 5deg;">
+        <video controls>
+          <source src="Videos/vid2.MP4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <p>I love your smile 💖</p>
+      </div>
+
+      <div class="polaroid" style="--rotation: 5deg;">
+        <video controls>
+          <source src="Videos/vid4.MP4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <p>I love spending time with you 😊</p>
+      </div>
+    </div>
+  </main>
+
+  <button class="return-btn" onclick="goBackToLovePage()">Return 💌</button>
+</body>
+</html>

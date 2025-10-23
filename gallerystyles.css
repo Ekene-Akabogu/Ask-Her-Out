@@ -1,0 +1,134 @@
+/* ===== GALLERY PAGE ===== */
+body.gallery-page {
+  background: linear-gradient(135deg, #0f2027, #203a43, #62091f);
+  font-family: "Acme", sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+header {
+  margin-top: 40px;
+  color: #e21146ca;
+}
+
+header h1 {
+  font-family: "Marko One", serif;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.1rem;
+  color: #daced3;
+}
+
+/* --- Gallery Layout --- */
+.polaroid-wall {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0;
+  gap: 100px;
+  width: 100%;
+  position: relative;
+}
+
+/* --- Strings --- */
+.string {
+  width: 90%;
+  height: 3px;
+  background: #4e899c;
+  border-radius: 5px;
+  opacity: 0.6;
+  position: absolute;
+  left: 5%;
+  z-index: 1;
+}
+
+.top-string {
+  top: 120px;
+}
+
+/* Centered bottom string (for videos) */
+.bottom-string {
+  top: 75%; /* moves the string to the middle of the video section */
+  transform: translateY(-50%); /* ensures perfect centering */
+}
+
+/* --- Rows --- */
+.photo-row, 
+.video-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  z-index: 2;
+}
+
+.polaroid {
+  background: #fffdf7;
+  border: 2px solid #e6d5b8;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2);
+  padding: 10px 10px 25px;
+  width: 220px;
+  transform: rotate(var(--rotation));
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: gentleFloat 6s ease-in-out infinite;
+}
+
+.polaroid:hover {
+  transform: rotate(0deg) scale(1.05);
+  box-shadow: 0 15px 30px rgba(231, 24, 24, 0.3);
+  z-index: 3;
+}
+
+.polaroid img,
+.polaroid video {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.polaroid p {
+  font-family: "Marko One", serif;
+  color: #5a0520;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+/* --- Return Button --- */
+.return-btn {
+  background-color: #5a0520;
+  color: white;
+  border: solid 2px #692a3f;
+  padding: 12px 30px;
+  border-radius: 20px;
+  font-family: "Acme", sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 50px;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.return-btn:hover {
+  background-color: #8a0930;
+  transform: scale(1.08);
+}
+
+/* --- Floating animation --- */
+@keyframes gentleFloat {
+  0%, 100% {
+    transform: translateY(0) rotate(var(--rotation));
+  }
+  50% {
+    transform: translateY(-8px) rotate(calc(var(--rotation) + 1deg));
+  }
+}
