@@ -21,10 +21,10 @@ function checkCode() {
   const code = document.getElementById("codeInput").value.trim().toLowerCase();
   const message = document.getElementById("message");
 
-  if (code === "myheart") {
+  if (code === "akum") {
     window.location.href = "ask.html";
   } else {
-    message.textContent = "Oops 😅 wrong code! Try again 💌";
+    message.textContent = "Oops 😅 wrong code! Try again 💌 \nHint: What is your name saved as on my phone";
   }
 }
 
