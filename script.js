@@ -220,14 +220,20 @@ const letterText = document.getElementById("letterText");
 
 if (letterText) {
   const message = `
-Every time I see you, it feels like the world slows down,
-and for a moment, everything makes sense.
+From the very first day we spoke, till this very moment, you’ve been a constant source of happiness in my life. 
+Every moment with you feels special — your presence alone brings peace to my heart.
 
-Your laughter stays in my heart longer than any song ever could.
-Your smile — it's the sunrise my soul never knew it needed.
+When I was sick, I never expected you to stay, yet you did. 
+You took care of me, stayed by my side, and made me feel loved in a way I didn’t think was possible. 
+Even when everything seemed to fall apart, you were there — patient, gentle, and trying to calm me down. 
+The way you pay attention to me, the little things you do, the way you listen… it means so much more than I can ever explain.
 
-You are my favorite thought in the morning,
-my calm at night, and my forever in between.
+I want to do the same for you. I want to love you deeply, care for you endlessly, and cherish you every single day. 
+I promise to always do my best to make you happy and be there for you through everything — the good and the bad. 
+When we have issues, I’ll make sure we face them together and solve them peacefully.
+
+You mean so much to me, and I want what’s best for you — always. 
+I’ll keep working on myself, growing, and becoming a better version of me, not just for my sake but for us.
 
 With all my love,
 — Ekene 💕
