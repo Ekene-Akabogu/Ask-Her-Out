@@ -47,6 +47,13 @@ p {
     font-weight: bold;
 }
 
+#message {
+  white-space: pre-line;
+  color: #b23a48; /* optional – makes it stand out */
+  font-family: 'Acme', sans-serif;
+  margin-top: 10px;
+}
+
 /* ===== ASK PAGE STYLING ===== */
 .ask-page {
   background: linear-gradient(135deg, #ffe1f2, #e0c3fc);
