@@ -49,6 +49,7 @@ p {
 
 #message {
   white-space: pre-line;
+  color: #f5d0db; /* optional – makes it stand out */
   font-family: 'Acme', sans-serif;
   margin-top: 10px;
 }
