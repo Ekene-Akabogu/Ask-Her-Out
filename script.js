@@ -24,7 +24,7 @@ function checkCode() {
   if (code === "akum") {
     window.location.href = "ask.html";
   } else {
-    message.textContent = "Oops 😅 wrong code! Try again 💌 <br>Hint: What is your name saved as on my phone";
+    message.textContent = "Oops 😅 wrong code! Try again 💌 \nHint: What is your name saved as on my phone";
   }
 }
 
