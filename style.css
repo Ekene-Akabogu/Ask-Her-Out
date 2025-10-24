@@ -49,7 +49,6 @@ p {
 
 #message {
   white-space: pre-line;
-  color: #c92424; /* optional – makes it stand out */
   font-family: 'Acme', sans-serif;
   margin-top: 10px;
 }
@@ -280,6 +279,7 @@ button.no:hover {
 .paper p {
   font-family: "Dancing Script", cursive;
   font-size: 1.4rem;
+  color: #c2170e;
   line-height: 1.8;
   white-space: pre-line;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
