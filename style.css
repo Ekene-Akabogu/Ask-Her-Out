@@ -43,13 +43,13 @@ button:hover {
 
 p {
     margin-top: 15px;
-    color: #ff3c78;
+    color: #f5d0db;
     font-weight: bold;
 }
 
 #message {
   white-space: pre-line;
-  color: #b23a48; /* optional – makes it stand out */
+  color: #f5d0db; /* optional – makes it stand out */
   font-family: 'Acme', sans-serif;
   margin-top: 10px;
 }
